@@ -1,0 +1,149 @@
+body {
+      background-image: url("img/humo.jpg");
+      background-size: cover;
+      margin-top: 0;
+      width: auto;
+}
+
+header {
+    width: 100%;
+    height: 96px;
+}
+
+footer {
+    width: 100%;
+    height: 40px;
+    background-color: #f710f3;
+    display: flex;
+    justify-content: center;
+ 
+}
+
+.redondo {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.redondo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+  
+  .contenedor-logo {
+    margin: auto;
+    height: 150px;
+    display: flex;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .box {
+    flex-basis: 45%;
+    height: 70%;
+    background-color: #4d063e;
+    border: 1px solid #100606;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 2px 2px 5px rgba(50, 48, 48, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 30px;
+  }
+  
+  .box header {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+  }
+  
+  .box footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  textarea {
+    width: 100%;
+    height: 80%;
+    resize: none;
+    border: none;
+    padding: 10px;
+    font-size: 1.2rem;
+    color: #e9e1e9;
+    font-family: sans-serif;
+    background-color: #08030891;
+  }
+
+  .alert-message {
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  #alert-img {
+    margin-top: 0px;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  h2 {
+
+    display: flex;
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    color: #f206fa;
+    margin-top: 5px
+  }
+  
+  h6 {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 0.75rem;
+    margin-top: 0px;
+    color: white;
+  }
+
+  #button-copy {
+    width: 3rem;
+    aspect-ratio: 1;
+    border-radius: 50%;
+  }
+
+  button > img {
+    width: 1.75rem;
+  }
+  button > img {
+    width: 1.75rem;
+  }
+  
+  #button-trash {
+    width: 3rem;
+    aspect-ratio: 1;
+    border-radius: 50%;
+  }
+
+/*ANIMATIONS*/
+button:hover,
+button:focus {
+  background: var(--Light-blue-300);
+}
+
+button:active {
+  transition: 1s;
+  animation: scale-up-center 0.2s;
+}
+
+select:hover,
+select:focus {
+  opacity: 0.9;
+}

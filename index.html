@@ -1,0 +1,64 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./assets/img/Vector.svg">
+    <title>CREATIVE DESIGN & DEVELOPMENT.</title>
+</head>
+<body>
+    <header>
+        <h1 class="contenedor-logo">
+            <div class="redondo">
+            <img src="img/mf.gif" title="logo mary">
+        </h1>
+    </header>
+</div>
+    <main class="contenedor-principal">
+        <div class="container">
+            <div class="box">
+              <header style="display: flex; flex-direction: column;">  
+                 
+                <h2>Texto Desencriptado</h2>
+                <div class="alert-message">
+                  <img id="alert-img" src="img/alert.png" alt="Icono de Alerta" />
+                  <h6>Puede incluir cualquier tipo de texto incluso mayúsculas y acentos</h6>
+                </div>
+              
+              </header>
+              <textarea id="texto-original" placeholder="Escriba su mensage aquí" ></textarea>
+              <footer>
+                <button id="funcions" onclick="encriptar()" title="encriptar">encriptar</button>
+                    
+                
+                <button id="button-trash" onclick="borrar()" title="borrar todo">
+                    <img src="img/eliminar.png" alt="icono de basura" />
+                  </button>
+              </footer>
+            </div>
+            <div class="box">
+              <header>
+                <h2> Texto Encriptado </h2>
+                </header>
+              <textarea id="texto-encriptado"></textarea>
+              <footer>
+                <button id="funcions" onclick="desencriptar()" title="desencriptar" style="float:right;">desencriptar</button>
+                    
+                <button id="button-copy" title="Copiar texto" onclick="copiar()" alt="copiar texto encriptado" style="float:left;">
+                    <img
+                      src="img/copy.png"
+                      alt="Icono de copiar"
+                    />
+                  </button>
+              </footer>
+            </div>
+          </div>
+       
+        
+    </main>
+
+    <footer></footer>
+    
+    <script src="script.js"></script>
+
+
